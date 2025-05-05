@@ -1,5 +1,6 @@
 import GlobalSettings from "./components/GlobalSettings/GlobalSettings";
-import DiagramSheet from "./components/DiagramSheet/DiagramSheet";
+// import DiagramSheet from "./components/DiagramSheet/DiagramSheet";
+import { DiagramSheet } from "../canvas-graphs-module/src";
 import useStore from "./utils/store";
 
 function App() {
@@ -8,11 +9,13 @@ function App() {
   return (
     <>
       <GlobalSettings />
-      <DiagramSheet
-        nodeColor={selectedColor}
-        importedJSON={importedJSON}
-        setCurrentJSON={setCurrentJSON}
-      />
+      <div style={{ width: "calc(80% - 1px)" }}>
+        <DiagramSheet
+          nodeColor={selectedColor}
+          importedJSON={importedJSON}
+          setCurrentJSON={setCurrentJSON}
+        />
+      </div>
     </>
   );
 }

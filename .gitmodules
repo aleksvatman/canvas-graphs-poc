@@ -1,0 +1,3 @@
+[submodule "canvas-graphs-module"]
+	path = canvas-graphs-module
+	url = https://github.com/aleksvatman/canvas-graphs-module
