@@ -9,23 +9,23 @@ As user, you can draw connections between present nodes (some are available init
 To serve app locally you can run:
 
 ```
-  npm run dev
+npm run dev
 ```
 
 To build production-ready app:
 
 ```
-  npm run build
+npm run build
 ```
 
 To preview built files:
 
 ```
-  npm run preview
+npm run preview
 ```
 
 To lint files:
 
 ```
-  npm run lint
+npm run lint
 ```
