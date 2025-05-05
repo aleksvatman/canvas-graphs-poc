@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const ControlsWrapper = styled.div`
-  height: 100vh;
   width: 20%;
   border-right: 1px solid lightgray;
   padding: 10px;
